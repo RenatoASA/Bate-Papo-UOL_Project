@@ -1,0 +1,219 @@
+body{
+    background-color: #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+.menu-left{
+    width: 114px;
+    height: 650px;
+}
+.menu-right{
+    width: 259px;
+    height: 650px;
+    margin-top: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px; 
+    position: relative;
+}
+.menu{
+background-color: #323232b8;
+display: flex;
+width: 375px;
+height: 667px;
+align-items: center;
+justify-content: flex-end;
+position:fixed;
+
+
+} 
+
+.invisibility{
+display:none;
+} 
+
+.menu-text{
+    top: 0px;
+    color:black;
+    width: 259px;
+    height: 80px;
+    display: flex;
+    font-weight: bold;
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.text-todos{
+    width: 180px;
+} 
+
+.menu-todos{
+    display: flex;
+    align-items: center;
+}
+
+.menu-people, .menu-public, .menu-reserved{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;;
+    margin-bottom: 10px;
+}
+.text-menu-name, .text-public, .text-reserved{
+    width: 180px;
+    margin-left: 10px;
+}
+
+.menu-todos .check,
+.menu-people .check,
+.menu-public .check,
+.menu-reserved .check {
+    display: none;
+}
+
+.menu-todos .check:not(.invisibility),
+.menu-people .check:not(.invisibility),
+.menu-public .check:not(.invisibility),
+.menu-reserved .check:not(.invisibility) {
+    display: inline;
+}
+
+
+
+.check {
+    width: 20px;
+    height: 20px;
+}
+
+.img-people{
+    width: 50px;
+    height: 50px;
+}
+
+.img-people-cicle, .img-public, .img-reserved{
+    width: 25px;
+    height: 25px;
+}
+
+header{
+    width: 375px;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:0%;
+}
+
+.peoples {
+    height: 487px; 
+    overflow-y: scroll; 
+    background-color: rgb(102, 103, 103);
+}
+
+.imgpeople{
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+.imgUol{
+    width: 75px;
+    height: 53px;
+    margin-left: 15px;
+}
+
+main{
+    margin-top: 100px;
+    padding-bottom: 90px;
+    width: 375px;
+    height: 487px;
+    background-color: rgb(195, 196, 197);
+}
+
+botton{
+    width: 375px;
+    height: 80px;
+    margin-top: 587px;
+    background-color: #ffffff;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botton-lado-esquerdo{
+    margin-left: 15px;
+}
+
+#textoDigitado{
+    color: black;
+    border: 0px;
+    font-size: 15px;
+    font-style: italic;
+    
+}
+
+input::placeholder {
+    color: black;
+  }
+
+p{
+    margin-top: 5px;
+    color: #707070;
+}
+
+.icone-enviar{
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+}
+
+.people{
+    display: inline-flexbox;
+    justify-content:left;
+    align-items: center;
+    height: auto;
+    width: 375px;
+    color: #707070;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+
+.time {
+    color: gray;
+    padding-left: 5px;
+}
+.from, .to {
+    color: black;
+    font-weight: bold;
+    padding-left: 5px; 
+}
+
+.from{
+    padding-right: 5px;
+}
+.text {
+    color: black;
+    padding-left: 5px;
+}
+
+.status{
+    background-color: #b3b1b1;
+}
+
+.private{
+    background-color: rgb(250, 80, 80);
+}
+
+.public{
+    background-color: #ffffff;
+}
